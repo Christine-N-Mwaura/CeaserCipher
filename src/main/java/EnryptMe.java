@@ -4,6 +4,10 @@ public class EnryptMe {
     private static String cipherText = "";
     private static String errorMessage = "";
 
+    public  String encodeMethod(String text, int shiftKey){
+        return cipherText;
+    }
+
     public int getShiftKey() {
         return shiftKey;
     }
