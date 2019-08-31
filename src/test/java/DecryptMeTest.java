@@ -10,4 +10,11 @@ public class DecryptMeTest {
         assertEquals(resultExpected,testDecrypt.decodeMethod("I",1));
     }
 
+    @Test
+    public void decodeMethod_testSentenceDecryption_String() {
+        DecryptMe testDecrypt = new DecryptMe();
+        String resultExpected = "This is My Message";
+        assertEquals(resultExpected,testDecrypt.decodeMethod("Vjku ku Oa Oguucig",2));
+    }
+
 }
