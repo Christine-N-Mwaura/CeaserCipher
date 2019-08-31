@@ -22,5 +22,10 @@ public class EnryptMeTest {
         String resultExpected = "vguv";
         assertEquals(resultExpected,testEncrypt.encodeMethod("test",2));
     }
-
+    @Test
+    public void encodeMethod_encryptMixedLetterCase() {
+        EnryptMe testEncrypt = new EnryptMe();
+        String resultExpected = "IfmmP";
+        assertEquals(resultExpected,testEncrypt.encodeMethod("HellO",1));
+    }
 }
