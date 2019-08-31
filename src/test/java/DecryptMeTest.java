@@ -17,4 +17,12 @@ public class DecryptMeTest {
         assertEquals(resultExpected,testDecrypt.decodeMethod("Vjku ku Oa Oguucig",2));
     }
 
+    @Test
+    public void decodeMethod_testOtherCharacterDecryption_String() {
+        DecryptMe testDecrypt = new DecryptMe();
+        String resultExpected = "123movies";
+        assertEquals(resultExpected,testDecrypt.decodeMethod("123oqxkgu",2));
+
+    }
+
 }
