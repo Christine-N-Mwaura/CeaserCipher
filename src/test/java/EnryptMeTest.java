@@ -28,4 +28,11 @@ public class EnryptMeTest {
         String resultExpected = "IfmmP";
         assertEquals(resultExpected,testEncrypt.encodeMethod("HellO",1));
     }
+    @Test
+    public void encodeMethod_encryptOtherCharacter_String() {
+        EnryptMe testEncrypt = new EnryptMe();
+        String resultExpected = "If1mp45";
+        assertEquals(resultExpected,testEncrypt.encodeMethod("He1lo45",1));
+
+    }
 }
