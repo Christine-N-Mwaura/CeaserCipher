@@ -35,4 +35,10 @@ public class EnryptMeTest {
         assertEquals(resultExpected,testEncrypt.encodeMethod("He1lo45",1));
 
     }
+    @Test
+    public void encodeMethod_encryptSentence_String() {
+        EnryptMe testEncrypt = new EnryptMe();
+        String resultExpected = "Uijt jt nz Nfttbhf";
+        assertEquals(resultExpected,testEncrypt.encodeMethod("This is my Message",1));
+    }
 }
