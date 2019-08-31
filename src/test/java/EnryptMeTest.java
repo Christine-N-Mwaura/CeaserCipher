@@ -16,4 +16,11 @@ public class EnryptMeTest {
         assertEquals(resultExpected,testEncrypt.encodeMethod("L",5));
 
     }
+    @Test
+    public void encodeMethod_encryptWord_String() {
+        EnryptMe testEncrypt = new EnryptMe();
+        String resultExpected = "vguv";
+        assertEquals(resultExpected,testEncrypt.encodeMethod("test",2));
+    }
+
 }
