@@ -1,16 +1,16 @@
-# {Ceaser Cipher}
+# Ceaser Cipher
 
-#####By Christine Njeri
+##### By Christine Njeri
 
-##Author's name
-######Christine Njeri
+## Author's name
+###### Christine Njeri
 
 
-##Description
+## Description
 This application allows the user to enter a text and a shift key and get the ceaser cipher encryption or decryption depending on their choice.
 
 
-##User Requirements
+## User Requirements
 This application allows the user to:
 * Choose whether to encrypt, decrpt or exit.
 * If the user choose encrypt or decrypt,
@@ -18,21 +18,21 @@ This application allows the user to:
 * The user is then able to see the encrypted message if choice was encrypt and decrypted message if choice was decrypt.
 * If the user chooses exit, they are able to leave the application.
 
-##Project Setup
+## Project Setup
 * Make sure all requirements for running java applications are installed;JUnit, Intellij,SDK,JDK.
 * Clone the project to your local machine from https://github.com/Christine-N-Mwaura/CeaserCipher.git.
 * Run javac CeaserCipher.java to compile and java CeaserCipher to run the program
  
  
  
-##Technologies Used
+## Technologies Used
 
 * JDK 
 * Junit
 * Java
 * SDK
 
-##Contact Details
+## Contact Details
 For further information contact me at njerimwaura25@gmail.com
 
 Licence
