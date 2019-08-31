@@ -9,4 +9,11 @@ public class EnryptMeTest {
         assertEquals(resultExpected,testEncrypt.encodeMethod("here",27));
 
     }
+    @Test
+    public void encodeMethod_encryptLetter_String() {
+        EnryptMe testEncrypt = new EnryptMe();
+        String resultExpected = "Q";
+        assertEquals(resultExpected,testEncrypt.encodeMethod("L",5));
+
+    }
 }
