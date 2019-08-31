@@ -5,6 +5,18 @@ public class EnryptMe {
     private static String errorMessage = "";
 
     public  String encodeMethod(String text, int shiftKey){
+        this.text = text;
+
+        if (shiftKey > 26 || shiftKey < 0) {
+            return errorMessage = "key must be between 1 to 25";
+        }else{
+
+        }
+
+
+
+
+
         return cipherText;
     }
 
